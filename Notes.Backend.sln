@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.WebApi", "Notes.WebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Tests", "Notes.Tests\Notes.Tests.csproj", "{D443A746-5E77-4CC3-805C-78DC2701C291}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{6014807B-5959-454E-A193-8DE0552FE6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Identity", "Notes.Identity\Notes.Identity.csproj", "{E3D6EBA8-D779-49A0-AE54-DF0A5B195A15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{D443A746-5E77-4CC3-805C-78DC2701C291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D443A746-5E77-4CC3-805C-78DC2701C291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D443A746-5E77-4CC3-805C-78DC2701C291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D6EBA8-D779-49A0-AE54-DF0A5B195A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D6EBA8-D779-49A0-AE54-DF0A5B195A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D6EBA8-D779-49A0-AE54-DF0A5B195A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D6EBA8-D779-49A0-AE54-DF0A5B195A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{8D7C00F7-78AA-48DB-9626-6604B3F2AEB1} = {F121488D-18DD-4504-BE28-3D8BCEBCE1D8}
 		{E626F146-4270-49F3-89D5-DF93B874D5F0} = {BC514169-E68F-4611-9506-DDC0B39D5ECF}
 		{D443A746-5E77-4CC3-805C-78DC2701C291} = {B42B8E22-AA02-4CB9-977B-CA31761AA961}
+		{E3D6EBA8-D779-49A0-AE54-DF0A5B195A15} = {6014807B-5959-454E-A193-8DE0552FE6E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D84AEDC-898D-4C00-9A8A-8B9FB3470B65}
