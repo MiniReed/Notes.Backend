@@ -20,8 +20,6 @@ namespace Notes.Identity.Data
                 entity.ToTable(name: "UserRoles"));
             builder.Entity<IdentityUserClaim<string>>(entity =>
                 entity.ToTable(name: "UserClaim"));
-            builder.Entity<IdentityUserLogin<string>>(entity =>
-                entity.ToTable("UserLogins"));
             builder.Entity<IdentityUserToken<string>>(entity =>
                 entity.ToTable("UserTokens"));
             builder.Entity<IdentityRoleClaim<string>>(entity =>
